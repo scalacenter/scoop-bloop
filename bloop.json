@@ -1,7 +1,6 @@
 {
-  "version": "1.2.1",
-  "url": "https://github.com/scalacenter/bloop/releases/download/v1.2.1/install.py",
-  "hash": "sha256:5bd3beab714b6ca00784f89377d4ff76d4f28ea697d45674c0f93bf264070d4b",
+  "version": "1.2.2",
+  "url": "https://github.com/scalacenter/bloop/releases/download/v1.2.2/install.py",
   "depends": "python",
   "bin": "bloop.cmd",
   "env_add_path": "$dir",
