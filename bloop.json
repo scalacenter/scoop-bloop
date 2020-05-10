@@ -1,16 +1,16 @@
 {
-  "version": "1.4.0-RC1",
-  "url": "https://github.com/scalacenter/bloop/releases/download/v1.4.0-RC1/install.py",
-  "hash": "sha256:01cdeb9c26944d73539d47e2ec4bf5f75c19438fa23c06ae83e8aa9479322e4e",
-  "depends": "python",
-  "bin": "bloop.cmd",
+  "version": "1.4.0-RC2",
+  "url": "https://github.com/scalacenter/bloop/releases/download/v1.4.0-RC2/bloop-coursier.json.json",
+  "hash": "sha256:f3666855bb57cc4b2008844ce865a7329b9e81b474e038214b25dc997e965796",
+  "depends": "coursier",
+  "bin": "bloop",
   "env_add_path": "$dir",
   "env_set": {
     "BLOOP_HOME": "$dir",
     "BLOOP_IN_SCOOP": "true"
   },
   "installer": {
-    "script": "python $dir/install.py --dest $dir"
+    "script": "coursier install --install-dir $dir --default-channels=false --channel $dir bloop"
   }
 }
         
