@@ -1,7 +1,7 @@
 {
-  "version": "1.4.4",
-  "url": "https://github.com/scalacenter/bloop/releases/download/v1.4.4/bloop-coursier.json",
-  "hash": "sha256:7b89386edeb099a44f08ea66f8004e8a4f4ed3b266f04914db55dbbb5229cedf",
+  "version": "1.4.5",
+  "url": "https://github.com/scalacenter/bloop/releases/download/v1.4.5/bloop-coursier.json",
+  "hash": "sha256:5eba68b553cc028f1aaf4bf58b444f8e0378c4c32ebf2e34cb6e5961f0f66a28",
   "depends": "coursier",
   "bin": "bloop",
   "env_add_path": "$dir",
@@ -13,4 +13,5 @@
     "script": "coursier install --install-dir $dir --default-channels=false --channel $dir bloop"
   }
 }
+        
         
