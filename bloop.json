@@ -3,14 +3,11 @@
   "url": "https://github.com/scalacenter/bloop/releases/download/v1.4.12/bloop-coursier.json",
   "hash": "sha256:6dfdee1ee19f989ba47f441eb9dbfc657cfff54aa5feab26bcf4b45c16fba134",
   "depends": "coursier",
-  "bin": "bloop",
-  "env_add_path": "$dir",
+  "bin": "bloop.bat",
   "env_set": {
-    "BLOOP_HOME": "$dir",
-    "BLOOP_IN_SCOOP": "true"
+    "BLOOP_HOME": "$dir"
   },
   "installer": {
-    "script": "coursier install --install-dir $dir --default-channels=false --channel $dir bloop"
+    "script": "coursier install --install-dir $dir bloop"
   }
 }
-        
