@@ -13,4 +13,3 @@
     "script": "coursier install --install-dir $dir --default-channels=false --channel $dir bloop"
   }
 }
-        
