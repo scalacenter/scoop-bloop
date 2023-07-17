@@ -1,7 +1,7 @@
 {
-  "version": "1.5.8",
-  "url": "https://github.com/scalacenter/bloop/releases/download/v1.5.8/bloop-coursier.json",
-  "hash": "sha256:e6b5557131c4d469aa0e1103eed55aa53642dd9b959e57dbb10e52710810658d",
+  "version": "1.5.9",
+  "url": "https://github.com/scalacenter/bloop/releases/download/v1.5.9/bloop-coursier.json",
+  "hash": "sha256:89439c35689a1edf2ece9b72fae897a392dfd94a599758ab0973c3d80e063ab4",
   "depends": "coursier",
   "bin": "bloop.bat",
   "env_add_path": "$dir",
@@ -10,6 +10,7 @@
     "BLOOP_IN_SCOOP": "true"
   },
   "installer": {
-    "script": "coursier install --install-dir $dir bloop"
+    "script": "coursier install --install-dir $dir bloop:1.5.9"
   }
 }
+        
