@@ -1,5 +1,5 @@
 {
-  "version": "1.5.12",
+  "version": "1.5.13",
   "url": "https://github.com/scalacenter/bloop/releases/download/v1.5.13/bloop-coursier.json",
   "hash": "sha256:d4b9282aeb7a4b770486250cf4dd0c0e30d17a06b908554c81a5bd4a70a78506",
   "depends": "coursier",
