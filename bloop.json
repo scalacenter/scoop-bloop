@@ -1,7 +1,7 @@
 {
-  "version": "2.0.9",
-  "url": "https://github.com/scalacenter/bloop/releases/download/v2.0.9/bloop-coursier.json",
-  "hash": "sha256:811cfb67e7895c853294c50d5bf5abc44c7571a92f3ac9ec101bb2d17a1cdc21",
+  "version": "2.0.10",
+  "url": "https://github.com/scalacenter/bloop/releases/download/v2.0.10/bloop-coursier.json",
+  "hash": "sha256:897f274b6626dff3bee53e7ba0b78d79b4cffb67eeb8d0eb41e5d40570950ca4",
   "depends": "coursier",
   "bin": "bloop.bat",
   "env_add_path": "$dir",
